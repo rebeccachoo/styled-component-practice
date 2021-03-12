@@ -10,7 +10,7 @@ You can run the file and learn how the styled components work. You can see all t
 
 | Feature | Description |
 | -----: | :----------- |
-|  Initial State | <img src="https://raw.githubusercontent.com/rebeccachoo/react-contact-information/main/screen.png"  width="400">|
+|  Initial State | <img src="https://github.com/rebeccachoo/styled-component-practice/blob/main/screenshot.png?raw=true"  width="400">|
 
 
 ## Contributing
