@@ -23,6 +23,15 @@ const GlobalStyle = createGlobalStyle`
     padding-top: 10px;
   }
 `;
+const lists = [
+	{ id: 1, name: "Jane", number: 12321, active: false },
+	{ id: 2, name: "James", number: 42123, active: true },
+	{ id: 3, name: "Cynthia", number: 42344, active: false },
+	{ id: 4, name: "Julie", number: 33423, active: false },
+	{ id: 5, name: "Murphy", number: 77775, active: true },
+	{ id: 6, name: "Reina", number: 45555, active: false },
+	{ id: 7, name: "Rain", number: 57777, active: false },
+];
 // 화면이 grey색깔인것은 body 태그에 그레이로 넣었기 때문이다.
 function App() {
 	return (
@@ -35,7 +44,7 @@ function App() {
 			<h2>* Component 3</h2>
 			<Component3 />
 			<h2>* Component 4</h2>
-			<Component4 />
+			<Component4 lists={lists} />
 		</>
 	);
 }

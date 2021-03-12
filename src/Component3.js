@@ -10,7 +10,9 @@ const Button = styled.button`
 	margin-bottom: 30px;
 `;
 const Link = ({ className, children }) => (
-	<a className={className}>{children}</a>
+	<a className={className} href="/">
+		{children}
+	</a>
 );
 
 const StyledLink = styled(Link)`
@@ -30,7 +32,7 @@ function Component3() {
 		<div>
 			<Button as={ReverseButton}>Custom Button with style</Button>
 			<div>
-				<Link>Normal Link</Link>
+				<Link className="normal">Normal Link</Link>
 				<br />
 				<StyledLink>Styled Link</StyledLink>
 			</div>
